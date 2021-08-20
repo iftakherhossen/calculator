@@ -4,7 +4,6 @@
 
 body {
     background: #10101B;
-    height: 100vh;
 }
 
 .container {
@@ -12,22 +11,24 @@ body {
 }
 
 .half-width {
-    height: 400px;
+    height: 465px;
     background: #222436;
-    padding: 30px;
+    padding: 30px 0px;
+    width: 350px;
     text-align: center;
+    margin-top: 7.5%;
 }
 
 input[type='text']{
     background-color: #3D4153;
     padding: 10px 0px;
     color: #ffffff;
-    width: 80%;
-    margin: 0 auto;
+    width: 90%;   
     border: 2px solid #858299;
     height: 50px;
-    padding: 10px;
     font-size: 25px;
+    margin: auto;
+    font-size: 30px;
 }
 
 input[type='text']:focus {
@@ -43,7 +44,7 @@ input[type='text']:focus {
 .calc-typed {
     margin-top: 20px;
     font-size: 45px;
-    text-align: right;
+    text-align: center;
     color: #fff;
 }
 
@@ -55,26 +56,16 @@ input[type='text']:focus {
     width: 20%;
     background: #425062;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px 0;
     margin: 5px;
     display: inline-block;
     font-size: 25px;
     text-align: center;
     vertical-align: middle;
-    margin-right: -4px;
+    margin-right: -1px;
     border-radius: 10px;
     cursor: pointer;
 }
-
-.blink-me {
-color: #E0B612;
-}
-
-.submit-btn {
-    border: none;
-    margin-top: 20px;
-    padding: 10px 120px;
-    border-radius: 5px;
-    background: #495BC3;
-    color: #fff;
+.special {
+    width: 43%;
 }
